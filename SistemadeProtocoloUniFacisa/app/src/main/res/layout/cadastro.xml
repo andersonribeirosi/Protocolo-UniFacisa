@@ -12,10 +12,20 @@
         android:orientation="vertical"
         android:padding="20dp">
 
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preencha todos os campos abaixo"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
         <EditText
             android:id="@+id/editText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:ems="10"
             android:hint="Nome"
             android:inputType="textPersonName" />
@@ -25,32 +35,32 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textEmailAddress"
-            android:hint="Email"/>
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
 
         <EditText
             android:id="@+id/editText5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="textPassword"
-            android:hint="Senha"/>
+            android:hint="Senha"
+            android:inputType="textPassword" />
 
         <EditText
             android:id="@+id/editText6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="phone"
-            android:hint="Telefone"/>
+            android:hint="Telefone"
+            android:inputType="phone" />
 
         <EditText
             android:id="@+id/editText7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:inputType="date"
-            android:hint="Data"/>
+            android:hint="Matrícula"
+            android:inputType="number" />
 
         <Button
             android:id="@+id/button2"
@@ -66,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="120dp"
-            android:layout_marginTop="120dp"
+            android:layout_marginTop="100dp"
             android:onClick="voltar"
             android:text="Voltar" />
 
