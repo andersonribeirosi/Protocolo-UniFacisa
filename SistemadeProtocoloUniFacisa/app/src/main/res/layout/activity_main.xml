@@ -6,9 +6,20 @@
     android:layout_height="match_parent"
     tools:context="com.example.elfrarep.sistemadeprotocolosunifacisa.MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        app:srcCompat="@drawable/protocolo" />
+
     <GridLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp">
 
         <Button
             android:id="@+id/button2"
@@ -19,8 +30,8 @@
             android:layout_marginLeft="55dp"
             android:layout_marginTop="60dp"
             android:layout_row="0"
-            android:text="Solicitar Protocolo"
-            android:onClick="solicitarProtocolo"/>
+            android:onClick="solicitarProtocolo"
+            android:text="Solicitar Protocolo" />
 
         <Button
             android:id="@+id/button"
@@ -30,9 +41,9 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="55dp"
             android:layout_row="1"
+            android:onClick="acompanharProtocolo"
             android:paddingLeft="10dp"
-            android:text="Acompanhar Protocolo"
-            android:onClick="acompanharProtocolo"/>
+            android:text="Acompanhar Protocolo" />
 
         <Button
             android:id="@+id/button4"
@@ -42,8 +53,8 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="55dp"
             android:layout_row="2"
-            android:text="Pesquisar"
-            android:onClick="pesquisarProtocolo"/>
+            android:onClick="pesquisarProtocolo"
+            android:text="Pesquisar" />
 
         <Button
             android:id="@+id/button5"
@@ -53,8 +64,8 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="55dp"
             android:layout_row="3"
-            android:text="Cadastro"
-            android:onClick="cadastro"/>
+            android:onClick="cadastro"
+            android:text="Cadastro" />
 
         <Button
             android:id="@+id/button10"
@@ -64,7 +75,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginLeft="55dp"
             android:layout_row="4"
-            android:text="Sair"
-            android:onClick="fechar"/>
+            android:onClick="fechar"
+            android:text="Sair" />
     </GridLayout>
 </RelativeLayout>
