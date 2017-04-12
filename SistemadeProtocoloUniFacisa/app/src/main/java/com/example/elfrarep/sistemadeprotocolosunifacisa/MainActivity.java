@@ -1,5 +1,6 @@
 package com.example.elfrarep.sistemadeprotocolosunifacisa;
 
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -13,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+    }
 
     //Ação dos botões
     public void cadastro (View v){
@@ -43,5 +48,7 @@ public class MainActivity extends AppCompatActivity {
         FrameLayout fl = (FrameLayout) findViewById(R.id.fl);
         fl.setVisibility(View.VISIBLE);
     }
+
+
 }
 
