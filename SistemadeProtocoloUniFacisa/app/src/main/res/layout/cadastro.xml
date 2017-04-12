@@ -16,7 +16,7 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Preencha todos os campos abaixo"
+            android:text="Preencha todos os campos"
             android:textAlignment="center"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -75,7 +75,7 @@
             android:id="@+id/button6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="120dp"
+            android:layout_marginLeft="115dp"
             android:layout_marginTop="100dp"
             android:onClick="voltar"
             android:text="Voltar" />
